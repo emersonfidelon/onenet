@@ -81,7 +81,8 @@
                                                 Emita seu boleto aqui
                                             </small>
                                         </p>
-                                        <button class="btn btn-gradient-orange w-100">Entrar</button>
+                                        <a href="http://177.73.44.246:8079/central_assinante_web/login" target="_blank" 
+                                            class="btn btn-gradient-orange w-100">Entrar</a>
                                     </div>
                                 </div>
                             </div>
@@ -110,7 +111,8 @@
                                                 Emita seu boleto aqui
                                             </small>
                                         </p>
-                                        <button class="btn btn-gradient-orange w-100">Entrar</button>
+                                        <a href="http://177.73.44.246:8079/central_assinante_web/login" target="_blank" 
+                                            class="btn btn-gradient-orange w-100">Entrar</a>
                                     </div>
                                 </div>
                             </div>
@@ -139,7 +141,8 @@
                                                 Emita seu boleto aqui
                                             </small>
                                         </p>
-                                        <button class="btn btn-gradient-orange w-100">Entrar</button>
+                                        <a href="http://177.73.44.246:8079/central_assinante_web/login" target="_blank" 
+                                            class="btn btn-gradient-orange w-100">Entrar</a>
                                     </div>
                                 </div>
                             </div>
