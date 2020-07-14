@@ -69,7 +69,7 @@
                                         Temos a melhor conexão para <span class="text-gradient-orange">assistir suas
                                             séries</span>
                                     </h1>
-                                    <button class="btn btn-gradient-orange">Consultar Planos</button>
+                                    <a href="#section-plans" class="btn btn-gradient-orange">Consultar Planos</a>
                                 </div>
                                 <div class="col-md-5" id="client-area-home">
                                     <div class="col-md-8 text-center mx-auto p-4 bg-white rounded shadow">
@@ -99,7 +99,7 @@
                                         Temos a melhor conexão para <span class="text-gradient-orange">trabalhar e
                                             estudar</span>
                                     </h1>
-                                    <button class="btn btn-gradient-orange">Consultar Planos</button>
+                                    <a href="#section-plans" class="btn btn-gradient-orange">Consultar Planos</a>
                                 </div>
                                 <div class="col-md-5" id="client-area-home">
                                     <div class="col-md-8 text-center mx-auto p-4 bg-white rounded shadow">
@@ -129,7 +129,7 @@
                                         Temos a melhor conexão para <span class="text-gradient-orange">jogar sem
                                             travar</span>
                                     </h1>
-                                    <button class="btn btn-gradient-orange">Consultar Planos</button>
+                                    <a href="#section-plans" class="btn btn-gradient-orange">Consultar Planos</a>
                                 </div>
                                 <div class="col-md-5" id="client-area-home">
                                     <div class="col-md-8 text-center mx-auto p-4 bg-white rounded shadow">
@@ -185,7 +185,7 @@
                                 <h1 class="text-white font-weight-bolder">
                                     R$79,90
                                 </h1>
-                                <button class="btn btn-white w-100">Assinar</button>
+                                <a href="https://api.whatsapp.com/send?phone=5573998566962&text=Ol%C3%A1%2C%20vi%20o%20site%20de%20voc%C3%AAs%20e%20gostaria%20de%20contratar%20o%20plano%20de%2015%20MB%20por%2079%2C90.%20Podemos%20continuar%20por%20aqui%3F" target="_blank" class="btn btn-white w-100">Assinar</a>
                             </div>
                         </div>
                     </div>
@@ -210,7 +210,7 @@
                                 <h1 class="text-white font-weight-bolder">
                                     R$89,90
                                 </h1>
-                                <button class="btn btn-white w-100">Assinar</button>
+                                <a href="https://api.whatsapp.com/send?phone=5573998566962&text=Ol%C3%A1%2C%20vi%20o%20site%20de%20voc%C3%AAs%20e%20gostaria%20de%20contratar%20o%20plano%20de%2030%20MB%20por%2089%2C90.%20Podemos%20continuar%20por%20aqui%3F" target="_blank" class="btn btn-white w-100">Assinar</a>
                             </div>
                         </div>
                     </div>
@@ -235,7 +235,7 @@
                                 <h1 class="text-white font-weight-bolder">
                                     R$99,90
                                 </h1>
-                                <button class="btn btn-white w-100">Assinar</button>
+                                <a href="https://api.whatsapp.com/send?phone=5573998566962&text=Ol%C3%A1%2C%20vi%20o%20site%20de%20voc%C3%AAs%20e%20gostaria%20de%20contratar%20o%20plano%20de%2060%20MB%20por%2099%2C90.%20Podemos%20continuar%20por%20aqui%3F" target="_blank" class="btn btn-white w-100">Assinar</a>
                             </div>
                         </div>
                     </div>
@@ -332,7 +332,7 @@
                     </h1>
                     <ul class="nav list-group" id="f-nav-contacts">
                         <li>
-                            <p><span class="pr-3"><i class="fab fa-whatsapp"></i></span>(73) 9 9856-6962</p>
+                            <a href="tel:+5573998566962"><span class="pr-3"><i class="fab fa-whatsapp"></i></span>(73) 9 9856-6962</a>
                         </li>
                         <li>
                             <p><span class="pr-3"><i class="fas fa-phone-alt"></i></span>(73) 3011-1515</p>
@@ -341,7 +341,7 @@
                             <p><span class="pr-3"><i class="fas fa-envelope"></i></span>onenet@onenet.net</p>
                         </li>
                         <li>
-                            <p><span class="pr-3"><i class="fas fa-map-marker-alt"></i></span>financeiro@onenet.net</p>
+                            <p><span class="pr-3"><i class="fas fa-map-marker-alt"></i></span>Travessa vc 40 número 15 vila Caraípe, Teixeira de Freitas/BA</p>
                         </li>
                     </ul>
                 </div>
@@ -351,10 +351,10 @@
                     </h2>
                     <ul class="navbar-nav flex-column">
                         <li class="nav-item">
-                            <a class="nav-link text-white" href="">Início</a>
+                            <a class="nav-link text-white" href="#top">Início</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link text-white" href="">Planos</a>
+                            <a class="nav-link text-white" href="#section-plans">Planos</a>
                         </li>
                         <li class="nav-item">
                             <a class="nav-link text-white" href="">Área do clinete</a>
@@ -391,9 +391,9 @@
                             ©‎copyright 2020 - <span class="text-orange">OneNet</span> | Todos os direitos reservados
                         </p>
                     </div>
-                    <div class="col-md-6 text-center">
+                    <div class="col-md-6 text-right">
                         <small class="small text-white">
-                            Desenvolvido por: <strong>EASDigital</strong>
+                            Desenvolvido por: <strong><a href="https://easdigital.com.br">EASDigital</a></strong>
                         </small>
                     </div>
                 </div>
