@@ -69,7 +69,7 @@
                                         Temos a melhor conexão para <span class="text-gradient-orange">assistir suas
                                             séries</span>
                                     </h1>
-                                    <button class="btn btn-gradient-orange">Consultar Planos</button>
+                                    <a href="#section-plans" class="btn btn-gradient-orange">Consultar Planos</a>
                                 </div>
                                 <div class="col-md-5" id="client-area-home">
                                     <div class="col-md-8 text-center mx-auto p-4 bg-white rounded shadow">
@@ -99,7 +99,7 @@
                                         Temos a melhor conexão para <span class="text-gradient-orange">trabalhar e
                                             estudar</span>
                                     </h1>
-                                    <button class="btn btn-gradient-orange">Consultar Planos</button>
+                                    <a href="#section-plans" class="btn btn-gradient-orange">Consultar Planos</a>
                                 </div>
                                 <div class="col-md-5" id="client-area-home">
                                     <div class="col-md-8 text-center mx-auto p-4 bg-white rounded shadow">
@@ -129,7 +129,7 @@
                                         Temos a melhor conexão para <span class="text-gradient-orange">jogar sem
                                             travar</span>
                                     </h1>
-                                    <button class="btn btn-gradient-orange">Consultar Planos</button>
+                                    <a href="#section-plans" class="btn btn-gradient-orange">Consultar Planos</a>
                                 </div>
                                 <div class="col-md-5" id="client-area-home">
                                     <div class="col-md-8 text-center mx-auto p-4 bg-white rounded shadow">
