@@ -185,7 +185,7 @@
                                 <h1 class="text-white font-weight-bolder">
                                     R$79,90
                                 </h1>
-                                <button class="btn btn-white w-100">Assinar</button>
+                                <a href="https://api.whatsapp.com/send?phone=5573998566962&text=Ol%C3%A1%2C%20vi%20o%20site%20de%20voc%C3%AAs%20e%20gostaria%20de%20contratar%20o%20plano%20de%2015%20MB%20por%2079%2C90.%20Podemos%20continuar%20por%20aqui%3F" target="_blank" class="btn btn-white w-100">Assinar</a>
                             </div>
                         </div>
                     </div>
@@ -210,7 +210,7 @@
                                 <h1 class="text-white font-weight-bolder">
                                     R$89,90
                                 </h1>
-                                <button class="btn btn-white w-100">Assinar</button>
+                                <a href="https://api.whatsapp.com/send?phone=5573998566962&text=Ol%C3%A1%2C%20vi%20o%20site%20de%20voc%C3%AAs%20e%20gostaria%20de%20contratar%20o%20plano%20de%2030%20MB%20por%2089%2C90.%20Podemos%20continuar%20por%20aqui%3F" target="_blank" class="btn btn-white w-100">Assinar</a>
                             </div>
                         </div>
                     </div>
@@ -235,7 +235,7 @@
                                 <h1 class="text-white font-weight-bolder">
                                     R$99,90
                                 </h1>
-                                <button class="btn btn-white w-100">Assinar</button>
+                                <a href="https://api.whatsapp.com/send?phone=5573998566962&text=Ol%C3%A1%2C%20vi%20o%20site%20de%20voc%C3%AAs%20e%20gostaria%20de%20contratar%20o%20plano%20de%2060%20MB%20por%2099%2C90.%20Podemos%20continuar%20por%20aqui%3F" target="_blank" class="btn btn-white w-100">Assinar</a>
                             </div>
                         </div>
                     </div>
@@ -332,7 +332,7 @@
                     </h1>
                     <ul class="nav list-group" id="f-nav-contacts">
                         <li>
-                            <p><span class="pr-3"><i class="fab fa-whatsapp"></i></span>(73) 9 9856-6962</p>
+                            <a href="tel:+5573998566962"><span class="pr-3"><i class="fab fa-whatsapp"></i></span>(73) 9 9856-6962</a>
                         </li>
                         <li>
                             <p><span class="pr-3"><i class="fas fa-phone-alt"></i></span>(73) 3011-1515</p>
