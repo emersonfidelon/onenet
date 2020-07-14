@@ -341,7 +341,7 @@
                             <p><span class="pr-3"><i class="fas fa-envelope"></i></span>onenet@onenet.net</p>
                         </li>
                         <li>
-                            <p><span class="pr-3"><i class="fas fa-map-marker-alt"></i></span>financeiro@onenet.net</p>
+                            <p><span class="pr-3"><i class="fas fa-map-marker-alt"></i></span>Travessa vc 40 número 15 vila Caraípe, Teixeira de Freitas/BA</p>
                         </li>
                     </ul>
                 </div>
@@ -351,10 +351,10 @@
                     </h2>
                     <ul class="navbar-nav flex-column">
                         <li class="nav-item">
-                            <a class="nav-link text-white" href="">Início</a>
+                            <a class="nav-link text-white" href="#top">Início</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link text-white" href="">Planos</a>
+                            <a class="nav-link text-white" href="#section-plans">Planos</a>
                         </li>
                         <li class="nav-item">
                             <a class="nav-link text-white" href="">Área do clinete</a>
@@ -391,9 +391,9 @@
                             ©‎copyright 2020 - <span class="text-orange">OneNet</span> | Todos os direitos reservados
                         </p>
                     </div>
-                    <div class="col-md-6 text-center">
+                    <div class="col-md-6 text-right">
                         <small class="small text-white">
-                            Desenvolvido por: <strong>EASDigital</strong>
+                            Desenvolvido por: <strong><a href="https://easdigital.com.br">EASDigital</a></strong>
                         </small>
                     </div>
                 </div>
