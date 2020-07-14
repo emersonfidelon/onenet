@@ -2,7 +2,7 @@
 <html lang="pt-br">
 
 <head>
-    <title>OneNet</title>
+    <title>OneNet :: O seu provedor de internet</title>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <!-- Bootstrap v4.5 -->
@@ -17,11 +17,11 @@
 
 <body>
 
-    <header>
+    <header id="top">
         <nav class="navbar navbar-expand-lg navbar-light fixed-top bg-white">
             <div class="container">
-                <a class="navbar-brand" href="#">
-                    <img src="assets/img/brands/brand.png" alt="">
+                <a class="navbar-brand" href="#top">
+                    <img src="assets/img/brands/brand.png" alt="OneNet :: Seu provedor de internet">
                 </a>
                 <button class="navbar-toggler" type="button" data-toggle="collapse"
                     data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
@@ -32,13 +32,13 @@
                 <div class="collapse navbar-collapse" id="navbarSupportedContent">
                     <ul class="navbar-nav ml-auto">
                         <li class="nav-item active mx-2">
-                            <a class="nav-link" href="#">Início <span class="sr-only">(current)</span></a>
+                            <a class="nav-link" href="#top">Início <span class="sr-only">(current)</span></a>
                         </li>
                         <li class="nav-item mx-2">
-                            <a class="nav-link" href="#">Planos</a>
+                            <a class="nav-link" href="#section-plans">Planos</a>
                         </li>
                         <li class="nav-item mx-2">
-                            <a class="nav-link" href="#">Contato</a>
+                            <a class="nav-link" href="#contact-footer">Contato</a>
                         </li>
                         <li class="nav-item mx-2">
                             <a class="nav-link btn btn-gradient-blue" href="#">Bairros atendidos</a>
@@ -157,7 +157,7 @@
                 </a>
             </div>
         </section>
-        <div class="--spacing-1"></div>
+        <div class="--spacing-1" id="section-plans"></div>
         <section id="plans">
             <div class="container">
                 <div class="row">
@@ -358,7 +358,7 @@
                         </li>
                     </ul>
                 </div>
-                <div class="col-md-4">
+                <div class="col-md-4" id="contact-footer">
                     <h2 class="text-white font-weight-bolder mb-5">
                         Fale conosco
                     </h2>
