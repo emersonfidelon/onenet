@@ -1,0 +1,63 @@
+/* Home */
+@media only screen and (max-width: 768px) {
+    .m-query-center {
+        text-align: center;
+    }
+
+    #client-area-home {
+        margin-top: 40px;
+    }
+
+    .box-content-home {
+        text-align: center;
+    }
+}
+
+/* Planos */
+@media only screen and (max-width: 768px) {
+    section#plans {
+        padding: 0 30px;
+    }
+
+    div.card-plan {
+        margin: 30px 0 !important;
+    }
+}
+
+/* Contatos */
+@media only screen and (max-width: 768px) {
+
+    section#contact {
+        text-align: center;
+    }
+
+    section#contact .icon-md {
+        font-size: 30px;
+    }
+
+    section#contact h3 {
+        font-size: 30px;
+    }
+
+    section#contact h3 {
+        font-size: 20px;
+    }
+}
+
+/* Section Área do cliente */
+@media only screen and (max-width: 992px) {
+    section#client-area {
+        height: 100%;
+    }
+
+    #box-phones {
+        display: none;
+    }
+}
+
+/* Footer */
+@media only screen and (max-width: 768px) {
+    footer {
+        text-align: center;
+    }
+}
