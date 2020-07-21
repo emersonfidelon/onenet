@@ -403,6 +403,12 @@
     <script src="assets/js/bootstrap.min.js"></script>
     <!-- Font Awesome 5 JS -->
     <script src="assets/fontawesome/js/all.min.js"></script>
+
+    <script>
+        $('.navbar-collapse a').click(function(){
+            $(".navbar-collapse").collapse('hide');
+        });
+    </script>
 </body>
 
 </html>
