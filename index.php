@@ -285,8 +285,7 @@
                 </div>
                 <div class="row">
                     <div class="col-md-8 position-relative" id="box-phones">
-                        <img id="img-phone-1" src="assets/img/random/phone1.png" width="40%" alt="">
-                        <img id="img-phone-2" src="assets/img/random/phone2.png" width="40%" alt="">
+                        <img src="assets/img/random/phones.png" alt="Área do cliente OneNet">
                     </div>
                     <div class="col-md-4">
                         <ul class="nav list-group" id="client-area-ul">
