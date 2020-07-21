@@ -41,7 +41,8 @@
                             <a class="nav-link" href="#contact-footer">Contato</a>
                         </li>
                         <li class="nav-item mx-2">
-                            <a class="nav-link btn btn-gradient-blue" href="#">Bairros atendidos</a>
+                        <a href="http://177.73.44.246:8079/central_assinante_web/login" target="_blank" 
+                                            class="btn btn-gradient-orange w-100">Área do Cliente</a>
                         </li>
                     </ul>
                 </div>
@@ -164,9 +165,7 @@
         <section id="plans">
             <div class="container">
                 <div class="row">
-                    <div class="card-plan col-md-3 mx-auto p-4 rounded" id="bg-plan-1"
-                        style="background-image: url('assets/img/banners/card-15mb.png')">
-                        <div class="overlay rounded shadow"></div>
+                    <div class="card-plan mx-auto p-4 rounded" id="bg-plan-1">
                         <div class="position-relative">
                             <div class="card-body">
                                 <h2 class="text-plan-before text-white font-weight-bold">
@@ -190,9 +189,7 @@
                         </div>
                     </div>
 
-                    <div class="card-plan col-md-3 mx-auto p-4 rounded" id="bg-plan-2"
-                        style="background-image: url('assets/img/banners/card-30mb.png')">
-                        <div class="overlay rounded shadow"></div>
+                    <div class="card-plan mx-auto p-4 rounded" id="bg-plan-2">
                         <div class="position-relative">
                             <div class="card-body">
                                 <h2 class="text-plan-before text-white font-weight-bold">
@@ -215,9 +212,7 @@
                         </div>
                     </div>
 
-                    <div class="card-plan col-md-3 mx-auto p-4 rounded" id="bg-plan-3"
-                        style="background-image: url('assets/img/banners/card-60mb.png')">
-                        <div class="overlay rounded shadow"></div>
+                    <div class="card-plan mx-auto p-4 rounded" id="bg-plan-3">
                         <div class="position-relative">
                             <div class="card-body">
                                 <h2 class="text-plan-before text-white font-weight-bold">
