@@ -67,7 +67,7 @@
                             <div class="row">
                                 <div class="col-md-7">
                                     <h1 class="text-uppercase text-white font-weight-bolder">
-                                    TEMOS A MELHOR CONEXÃO PARA <span class="text-gradient-orange">VOCÊ ASSISTIR SUAS SÉRIES</span>
+                                    TEMOS A MELHOR CONEXÃO PARA VOCÊ <span class="text-gradient-orange">ASSISTIR SUAS SÉRIES FAVORITAS</span>
                                     </h1>
                                     <a href="#section-plans" class="btn btn-gradient-orange">Consultar Planos</a>
                                 </div>
@@ -96,7 +96,7 @@
                             <div class="row">
                                 <div class="col-md-7">
                                     <h1 class="text-uppercase text-white font-weight-bolder">
-                                    TRABALHE E ESTUDE COM TODA VELOCIDADE E <span class="text-gradient-orange">ESTABILIDADE DE NOSSA CONEXÃO</span>
+                                    TEMOS A MELHOR CONEXÃO PARA VOCÊ<span class="text-gradient-orange"> TRABALHAR E ESTUDAR ESTABILIDADE</span>
                                     </h1>
                                     <a href="#section-plans" class="btn btn-gradient-orange">Consultar Planos</a>
                                 </div>
@@ -125,7 +125,7 @@
                             <div class="row">
                                 <div class="col-md-7">
                                     <h1 class="text-uppercase text-white font-weight-bolder">
-                                        SE DIVIRTA JOGANDO ONLINE COM <span class="text-gradient-orange">A MELHOR INTERNET</span>
+                                    TEMOS A MELHOR CONEXÃO PARA VOCÊ <span class="text-gradient-orange">SE DIVIRTIR JOGANDO ONLINE SEM LEG</span>
                                     </h1>
                                     <a href="#section-plans" class="btn btn-gradient-orange">Consultar Planos</a>
                                 </div>
