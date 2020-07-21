@@ -5,13 +5,17 @@
     --gradient-orange: linear-gradient(180deg, #F05737 0%, #E88D3A 100%);
 }
 
+html {
+    scroll-behavior: smooth;
+}
+
 * {
     font-family: 'Poppins';
 }
 
 /* Spacing */
 .--spacing-1 {
-    margin: 10rem 0;
+    padding: 5% 0;
 }
 
 /* Overlays */
