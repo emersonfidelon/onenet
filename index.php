@@ -10,7 +10,7 @@
     <!-- Font Awesome 5 -->
     <link rel="stylesheet" href="assets/fontawesome/css/all.min.css">
     <!-- Style -->
-    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="assets/css/style.css?v=2">
     <link rel="stylesheet" href="assets/css/mediaquery.css">
 
 </head>
