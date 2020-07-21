@@ -67,8 +67,7 @@
                             <div class="row">
                                 <div class="col-md-7">
                                     <h1 class="text-uppercase text-white font-weight-bolder">
-                                        Temos a melhor conexão para <span class="text-gradient-orange">assistir suas
-                                            séries</span>
+                                    TEMOS A MELHOR CONEXÃO PARA <span class="text-gradient-orange">VOCÊ ASSISTIR SUAS SÉRIES</span>
                                     </h1>
                                     <a href="#section-plans" class="btn btn-gradient-orange">Consultar Planos</a>
                                 </div>
@@ -97,8 +96,7 @@
                             <div class="row">
                                 <div class="col-md-7">
                                     <h1 class="text-uppercase text-white font-weight-bolder">
-                                        Temos a melhor conexão para <span class="text-gradient-orange">trabalhar e
-                                            estudar</span>
+                                    TRABALHE E ESTUDE COM TODA VELOCIDADE E <span class="text-gradient-orange">ESTABILIDADE DE NOSSA CONEXÃO</span>
                                     </h1>
                                     <a href="#section-plans" class="btn btn-gradient-orange">Consultar Planos</a>
                                 </div>
@@ -127,8 +125,7 @@
                             <div class="row">
                                 <div class="col-md-7">
                                     <h1 class="text-uppercase text-white font-weight-bolder">
-                                        Temos a melhor conexão para <span class="text-gradient-orange">jogar sem
-                                            travar</span>
+                                        SE DIVIRTA JOGANDO ONLINE COM <span class="text-gradient-orange">A MELHOR INTERNET</span>
                                     </h1>
                                     <a href="#section-plans" class="btn btn-gradient-orange">Consultar Planos</a>
                                 </div>
@@ -151,11 +148,11 @@
                         <div class="carousel-caption d-md-block"></div>
                     </div>
                 </div>
-                <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+                <a class="carousel-control-prev d-none d-sm-block" href="#carouselExampleIndicators" role="button" data-slide="prev">
                     <span class="carousel-control-prev-icon" aria-hidden="true"></span>
                     <span class="sr-only">Previous</span>
                 </a>
-                <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+                <a class="carousel-control-next d-none d-sm-block" href="#carouselExampleIndicators" role="button" data-slide="next">
                     <span class="carousel-control-next-icon" aria-hidden="true"></span>
                     <span class="sr-only">Next</span>
                 </a>
