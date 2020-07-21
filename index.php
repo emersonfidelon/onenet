@@ -34,14 +34,15 @@
                         <li class="nav-item active mx-2">
                             <a class="nav-link" href="#top">Início <span class="sr-only">(current)</span></a>
                         </li>
-                        <li class="nav-item mx-2">
+                        <li class="nav-item active mx-2">
                             <a class="nav-link" href="#section-plans">Planos</a>
                         </li>
-                        <li class="nav-item mx-2">
+                        <li class="nav-item active mx-2">
                             <a class="nav-link" href="#contact-footer">Contato</a>
                         </li>
                         <li class="nav-item mx-2">
-                            <a class="nav-link btn btn-gradient-blue" href="#">Bairros atendidos</a>
+                        <a href="http://177.73.44.246:8079/central_assinante_web/login" target="_blank" 
+                                            class="btn btn-gradient-orange w-100">Área do Cliente</a>
                         </li>
                     </ul>
                 </div>
@@ -52,7 +53,7 @@
     <main>
         <section class="position-relative" id="home">
 
-            <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+            <div id="carouselExampleIndicators" class="carousel slide carousel-fade" data-ride="carousel">
                 <ol class="carousel-indicators">
                     <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
                     <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
@@ -66,8 +67,7 @@
                             <div class="row">
                                 <div class="col-md-7">
                                     <h1 class="text-uppercase text-white font-weight-bolder">
-                                        Temos a melhor conexão para <span class="text-gradient-orange">assistir suas
-                                            séries</span>
+                                    TEMOS A MELHOR CONEXÃO PARA VOCÊ <span class="text-gradient-orange">ASSISTIR SUAS SÉRIES FAVORITAS</span>
                                     </h1>
                                     <a href="#section-plans" class="btn btn-gradient-orange">Consultar Planos</a>
                                 </div>
@@ -96,8 +96,7 @@
                             <div class="row">
                                 <div class="col-md-7">
                                     <h1 class="text-uppercase text-white font-weight-bolder">
-                                        Temos a melhor conexão para <span class="text-gradient-orange">trabalhar e
-                                            estudar</span>
+                                    TEMOS A MELHOR CONEXÃO PARA VOCÊ<span class="text-gradient-orange"> TRABALHAR E ESTUDAR ESTABILIDADE</span>
                                     </h1>
                                     <a href="#section-plans" class="btn btn-gradient-orange">Consultar Planos</a>
                                 </div>
@@ -126,8 +125,7 @@
                             <div class="row">
                                 <div class="col-md-7">
                                     <h1 class="text-uppercase text-white font-weight-bolder">
-                                        Temos a melhor conexão para <span class="text-gradient-orange">jogar sem
-                                            travar</span>
+                                    TEMOS A MELHOR CONEXÃO PARA VOCÊ <span class="text-gradient-orange">SE DIVIRTIR JOGANDO ONLINE SEM LEG</span>
                                     </h1>
                                     <a href="#section-plans" class="btn btn-gradient-orange">Consultar Planos</a>
                                 </div>
@@ -150,11 +148,11 @@
                         <div class="carousel-caption d-md-block"></div>
                     </div>
                 </div>
-                <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+                <a class="carousel-control-prev d-none d-sm-block" href="#carouselExampleIndicators" role="button" data-slide="prev">
                     <span class="carousel-control-prev-icon" aria-hidden="true"></span>
                     <span class="sr-only">Previous</span>
                 </a>
-                <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+                <a class="carousel-control-next d-none d-sm-block" href="#carouselExampleIndicators" role="button" data-slide="next">
                     <span class="carousel-control-next-icon" aria-hidden="true"></span>
                     <span class="sr-only">Next</span>
                 </a>
@@ -164,78 +162,72 @@
         <section id="plans">
             <div class="container">
                 <div class="row">
-                    <div class="card-plan col-md-3 mx-auto p-4 rounded" id="bg-plan-1"
-                        style="background-image: url('assets/img/banners/card-15mb.png')">
-                        <div class="overlay rounded shadow"></div>
-                        <div class="position-relative">
-                            <div class="card-body">
-                                <h2 class="text-plan-before text-white font-weight-bold">
-                                    15 mega
-                                </h2>
-                                <p class="text-white my-5">
-                                    <small class="small">
-                                        Tenha acesso de qualidade para assistir seus <strong>filmes</strong> e maratonar
-                                        nas
-                                        suas <strong>séries</strong>
-                                        favoritas.
-                                    </small>
-                                </p>
-                            </div>
-                            <div class="card-footer text-center">
-                                <h1 class="text-white font-weight-bolder">
-                                    R$79,90
-                                </h1>
-                                <a href="https://api.whatsapp.com/send?phone=5573998566962&text=Ol%C3%A1%2C%20vi%20o%20site%20de%20voc%C3%AAs%20e%20gostaria%20de%20contratar%20o%20plano%20de%2015%20MB%20por%2079%2C90.%20Podemos%20continuar%20por%20aqui%3F" target="_blank" class="btn btn-white w-100">Assinar</a>
+                    <div class="col-sm-4">
+                        <div class="card-plan p-4 rounded" id="bg-plan-1">
+                            <div class="position-relative">
+                                <div class="card-body">
+                                    <h2 class="text-plan-before text-white font-weight-bold">
+                                        15 mega
+                                    </h2>
+                                    <p class="text-white my-5">
+                                        <small class="small">
+                                        O plano ideal para  você <strong>estudar e trabalhar</strong> com muito eficiência, participe de <strong>lives</strong> e realize suas atividades <strong>sem preocupação</strong> e estresse. 
+                                        </small>
+                                    </p>
+                                </div>
+                                <div class="card-footer text-center">
+                                    <h1 class="text-white font-weight-bolder">
+                                        R$79,90
+                                    </h1>
+                                    <a href="https://api.whatsapp.com/send?phone=5573999546875&text=Ol%C3%A1%2C%20vi%20o%20site%20de%20voc%C3%AAs%20e%20gostaria%20de%20contratar%20o%20plano%20de%2015%20MB%20por%2079%2C90.%20Podemos%20continuar%20por%20aqui%3F" target="_blank" class="btn btn-white w-100">Assinar</a>
+                                </div>
                             </div>
                         </div>
                     </div>
 
-                    <div class="card-plan col-md-3 mx-auto p-4 rounded" id="bg-plan-2"
-                        style="background-image: url('assets/img/banners/card-30mb.png')">
-                        <div class="overlay rounded shadow"></div>
-                        <div class="position-relative">
-                            <div class="card-body">
-                                <h2 class="text-plan-before text-white font-weight-bold">
-                                    30 mega
-                                </h2>
-                                <p class="text-white my-5">
-                                    <small class="small">
-                                        O plano ideal para atender as necessidades da sua <strong>casa</strong> ou
-                                        <strong>empresa, 24 horas</strong> por dia, sem preocupação ou burocracia.
-                                    </small>
-                                </p>
-                            </div>
-
-                            <div class="card-footer text-center">
-                                <h1 class="text-white font-weight-bolder">
-                                    R$89,90
-                                </h1>
-                                <a href="https://api.whatsapp.com/send?phone=5573998566962&text=Ol%C3%A1%2C%20vi%20o%20site%20de%20voc%C3%AAs%20e%20gostaria%20de%20contratar%20o%20plano%20de%2030%20MB%20por%2089%2C90.%20Podemos%20continuar%20por%20aqui%3F" target="_blank" class="btn btn-white w-100">Assinar</a>
+                    <div class="col-sm-4">
+                        <div class="card-plan p-4 rounded" id="bg-plan-2">
+                            <div class="position-relative">
+                                <div class="card-body">
+                                    <h2 class="text-plan-before text-white font-weight-bold">
+                                        30 mega
+                                    </h2>
+                                    <p class="text-white my-5">
+                                        <small class="small">
+                                        Foque no objetivo do seu <strong>GAME</strong>, tenha a melhor conexão para você jogar online com estabilidade e <strong>PING baixíssimo</strong>, 24 horas por dia. 
+                                        </small>
+                                    </p>
+                                </div>
+    
+                                <div class="card-footer text-center">
+                                    <h1 class="text-white font-weight-bolder">
+                                        R$89,90
+                                    </h1>
+                                    <a href="https://api.whatsapp.com/send?phone=5573999546875&text=Ol%C3%A1%2C%20vi%20o%20site%20de%20voc%C3%AAs%20e%20gostaria%20de%20contratar%20o%20plano%20de%2030%20MB%20por%2089%2C90.%20Podemos%20continuar%20por%20aqui%3F" target="_blank" class="btn btn-white w-100">Assinar</a>
+                                </div>
                             </div>
                         </div>
                     </div>
 
-                    <div class="card-plan col-md-3 mx-auto p-4 rounded" id="bg-plan-3"
-                        style="background-image: url('assets/img/banners/card-60mb.png')">
-                        <div class="overlay rounded shadow"></div>
-                        <div class="position-relative">
-                            <div class="card-body">
-                                <h2 class="text-plan-before text-white font-weight-bold">
-                                    60 mega
-                                </h2>
-                                <p class="text-white my-5">
-                                    <small class="small">
-                                        Foque no objetivo do <strong>game</strong>, e não no leg, temos a
-                                        <strong>conexão
-                                            perfeita</strong> com a melhor qualidade de acesso e disponibilidade
-                                    </small>
-                                </p>
-                            </div>
-                            <div class="card-footer text-center">
-                                <h1 class="text-white font-weight-bolder">
-                                    R$99,90
-                                </h1>
-                                <a href="https://api.whatsapp.com/send?phone=5573998566962&text=Ol%C3%A1%2C%20vi%20o%20site%20de%20voc%C3%AAs%20e%20gostaria%20de%20contratar%20o%20plano%20de%2060%20MB%20por%2099%2C90.%20Podemos%20continuar%20por%20aqui%3F" target="_blank" class="btn btn-white w-100">Assinar</a>
+                    <div class="col-sm-4">
+                        <div class="card-plan p-4 rounded" id="bg-plan-3">
+                            <div class="position-relative">
+                                <div class="card-body">
+                                    <h2 class="text-plan-before text-white font-weight-bold">
+                                        60 mega
+                                    </h2>
+                                    <p class="text-white my-5">
+                                        <small class="small">
+                                            O plano perfeito para e você e toda sua <strong>família</strong> ficarem <strong>conectados</strong> em <strong>ultravelocidade</strong>,  assista series  e filmes em alta resolução. 
+                                        </small>
+                                    </p>
+                                </div>
+                                <div class="card-footer text-center">
+                                    <h1 class="text-white font-weight-bolder">
+                                        R$99,90
+                                    </h1>
+                                    <a href="https://api.whatsapp.com/send?phone=5573999546875&text=Ol%C3%A1%2C%20vi%20o%20site%20de%20voc%C3%AAs%20e%20gostaria%20de%20contratar%20o%20plano%20de%2060%20MB%20por%2099%2C90.%20Podemos%20continuar%20por%20aqui%3F" target="_blank" class="btn btn-white w-100">Assinar</a>
+                                </div>
                             </div>
                         </div>
                     </div>
@@ -258,7 +250,7 @@
                                     Whatsapp
                                 </h4>
                                 <h3 class="font-weight-light text-white">
-                                    (73) 9 9856-6962
+                                    (73) 9 9954-6875
                                 </h3>
                             </div>
                         </div>
@@ -288,14 +280,12 @@
             <div class="container">
                 <div class="col-md-12 pb-5">
                     <h2>
-                        Área do cliente <span class="font-weight-bolder text-orange">One</span><span
-                            class="font-weight-bolder text-blue">Net</span>
+                        Área do cliente
                     </h2>
                 </div>
                 <div class="row">
                     <div class="col-md-8 position-relative" id="box-phones">
-                        <img id="img-phone-1" src="assets/img/random/phone1.png" width="40%" alt="">
-                        <img id="img-phone-2" src="assets/img/random/phone2.png" width="40%" alt="">
+                        <img src="assets/img/random/phones.png" alt="Área do cliente OneNet">
                     </div>
                     <div class="col-md-4">
                         <ul class="nav list-group" id="client-area-ul">
@@ -309,9 +299,6 @@
                             <li>
                                 <p><span class="pr-3"><i class="fas fa-check-square"></i></span>Atualizar informações
                                 </p>
-                            </li>
-                            <li>
-                                <p><span class="pr-3"><i class="fas fa-check-square"></i></span>Imprimir contrato</p>
                             </li>
                             <li>
                                 <p><span class="pr-3"><i class="fas fa-check-square"></i></span>E muito mais...</p>
@@ -332,16 +319,16 @@
                     </h1>
                     <ul class="nav list-group" id="f-nav-contacts">
                         <li>
-                            <a href="tel:+5573998566962"><span class="pr-3"><i class="fab fa-whatsapp"></i></span>(73) 9 9856-6962</a>
+                            <p><span class="pr-3"><i class="fab fa-whatsapp"></i></span>(73) 9 9954-6875</p>
                         </li>
                         <li>
                             <p><span class="pr-3"><i class="fas fa-phone-alt"></i></span>(73) 3011-1515</p>
                         </li>
                         <li>
-                            <p><span class="pr-3"><i class="fas fa-envelope"></i></span>onenet@onenet.net</p>
+                            <p><span class="pr-3"><i class="fas fa-envelope"></i></span>financeiro@onenet.net</p>
                         </li>
                         <li>
-                            <p><span class="pr-3"><i class="fas fa-map-marker-alt"></i></span>Travessa vc 40 número 15 vila Caraípe, Teixeira de Freitas/BA</p>
+                            <p><span class="pr-3"><i class="fas fa-map-marker-alt"></i></span>Travessa vc 40 número 15 Vila Caraípe, Teixeira de Freitas/BA</p>
                         </li>
                     </ul>
                 </div>
@@ -357,7 +344,7 @@
                             <a class="nav-link text-white" href="#section-plans">Planos</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link text-white" href="">Área do clinete</a>
+                            <a class="nav-link text-white" href="http://177.73.44.246:8079/central_assinante_web/login" target="_blank">Área do cliente</a>
                         </li>
                     </ul>
                 </div>
@@ -415,6 +402,12 @@
     <script src="assets/js/bootstrap.min.js"></script>
     <!-- Font Awesome 5 JS -->
     <script src="assets/fontawesome/js/all.min.js"></script>
+
+    <script>
+        $('.navbar-collapse a').click(function(){
+            $(".navbar-collapse").collapse('hide');
+        });
+    </script>
 </body>
 
 </html>
