@@ -34,10 +34,10 @@
                         <li class="nav-item active mx-2">
                             <a class="nav-link" href="#top">Início <span class="sr-only">(current)</span></a>
                         </li>
-                        <li class="nav-item mx-2">
+                        <li class="nav-item active mx-2">
                             <a class="nav-link" href="#section-plans">Planos</a>
                         </li>
-                        <li class="nav-item mx-2">
+                        <li class="nav-item active mx-2">
                             <a class="nav-link" href="#contact-footer">Contato</a>
                         </li>
                         <li class="nav-item mx-2">
@@ -53,7 +53,7 @@
     <main>
         <section class="position-relative" id="home">
 
-            <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+            <div id="carouselExampleIndicators" class="carousel slide carousel-fade" data-ride="carousel">
                 <ol class="carousel-indicators">
                     <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
                     <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
@@ -283,8 +283,7 @@
             <div class="container">
                 <div class="col-md-12 pb-5">
                     <h2>
-                        Área do cliente <span class="font-weight-bolder text-orange">One</span><span
-                            class="font-weight-bolder text-blue">Net</span>
+                        Área do cliente
                     </h2>
                 </div>
                 <div class="row">
@@ -304,9 +303,6 @@
                             <li>
                                 <p><span class="pr-3"><i class="fas fa-check-square"></i></span>Atualizar informações
                                 </p>
-                            </li>
-                            <li>
-                                <p><span class="pr-3"><i class="fas fa-check-square"></i></span>Imprimir contrato</p>
                             </li>
                             <li>
                                 <p><span class="pr-3"><i class="fas fa-check-square"></i></span>E muito mais...</p>
@@ -333,10 +329,10 @@
                             <p><span class="pr-3"><i class="fas fa-phone-alt"></i></span>(73) 3011-1515</p>
                         </li>
                         <li>
-                            <p><span class="pr-3"><i class="fas fa-envelope"></i></span>onenet@onenet.net</p>
+                            <p><span class="pr-3"><i class="fas fa-envelope"></i></span>financeiro@onenet.net</p>
                         </li>
                         <li>
-                            <p><span class="pr-3"><i class="fas fa-map-marker-alt"></i></span>Travessa vc 40 número 15 vila Caraípe, Teixeira de Freitas/BA</p>
+                            <p><span class="pr-3"><i class="fas fa-map-marker-alt"></i></span>Travessa vc 40 número 15 Vila Caraípe, Teixeira de Freitas/BA</p>
                         </li>
                     </ul>
                 </div>
@@ -352,7 +348,7 @@
                             <a class="nav-link text-white" href="#section-plans">Planos</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link text-white" href="">Área do clinete</a>
+                            <a class="nav-link text-white" href="http://177.73.44.246:8079/central_assinante_web/login" target="_blank">Área do cliente</a>
                         </li>
                     </ul>
                 </div>
