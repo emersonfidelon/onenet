@@ -53,7 +53,7 @@
     <main>
         <section class="position-relative" id="home">
 
-            <div id="carouselExampleIndicators" class="carousel slide carousel-fade" data-ride="carousel">
+            <div id="carouselExampleIndicators" class="carousel slide carousel-fade" data-pause="false" data-ride="carousel">
                 <ol class="carousel-indicators">
                     <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
                     <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
@@ -96,7 +96,7 @@
                             <div class="row">
                                 <div class="col-md-7">
                                     <h1 class="text-uppercase text-white font-weight-bolder">
-                                    TEMOS A MELHOR CONEXÃO PARA VOCÊ<span class="text-gradient-orange"> TRABALHAR E ESTUDAR ESTABILIDADE</span>
+                                    TEMOS A MELHOR CONEXÃO PARA VOCÊ<span class="text-gradient-orange"> TRABALHAR E ESTUDAR COM ESTABILIDADE</span>
                                     </h1>
                                     <a href="#section-plans" class="btn btn-gradient-orange">Consultar Planos</a>
                                 </div>
@@ -148,11 +148,11 @@
                         <div class="carousel-caption d-md-block"></div>
                     </div>
                 </div>
-                <a class="carousel-control-prev d-none d-sm-block" href="#carouselExampleIndicators" role="button" data-slide="prev">
+                <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
                     <span class="carousel-control-prev-icon" aria-hidden="true"></span>
                     <span class="sr-only">Previous</span>
                 </a>
-                <a class="carousel-control-next d-none d-sm-block" href="#carouselExampleIndicators" role="button" data-slide="next">
+                <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
                     <span class="carousel-control-next-icon" aria-hidden="true"></span>
                     <span class="sr-only">Next</span>
                 </a>
@@ -328,7 +328,7 @@
                             <p><span class="pr-3"><i class="fas fa-envelope"></i></span>financeiro@onenet.net</p>
                         </li>
                         <li>
-                            <p><span class="pr-3"><i class="fas fa-map-marker-alt"></i></span>Travessa vc 40 número 15 Vila Caraípe, Teixeira de Freitas/BA</p>
+                            <p><span class="pr-3"><i class="fas fa-map-marker-alt"></i></span>Travessa VC 40, Nº 15, Vila Caraípe, Teixeira de Freitas/BA</p>
                         </li>
                     </ul>
                 </div>
@@ -352,20 +352,21 @@
                     <h2 class="text-white font-weight-bolder mb-5">
                         Fale conosco
                     </h2>
-                    <form action="">
+                    <div id="erros"></div>
+                    <form id="enviar_mensagem">
                         <div class="form-group">
-                            <input class="form-control" type="text" placeholder="Nome completo">
+                            <input class="form-control" required name="nome" type="text" placeholder="Nome completo">
                         </div>
                         <div class="form-group">
-                            <input class="form-control" type="text" placeholder="Telefone/ Whatsapp">
+                            <input class="form-control" required name="telefone" type="text" placeholder="Telefone/ Whatsapp">
                         </div>
                         <div class="form-group">
-                            <input class="form-control" type="text" placeholder="Cidade">
+                            <input class="form-control" required name="cidade" type="text" placeholder="Cidade">
                         </div>
                         <div class="form-group">
-                            <textarea class="form-control" type="text" placeholder="Mensagem"></textarea>
+                            <textarea class="form-control" required name="mensagem" type="text" placeholder="Mensagem"></textarea>
                         </div>
-                        <button class="btn btn-gradient-orange">Enviar</button>
+                        <button class="btn btn-gradient-orange" id="send_form">Enviar</button>
                     </form>
                 </div>
             </div>
@@ -407,6 +408,31 @@
         $('.navbar-collapse a').click(function(){
             $(".navbar-collapse").collapse('hide');
         });
+
+        $('#send_form').click(function(e){
+            //setamos para quando submeter não atualizar a pagina   
+            e.preventDefault();
+            //o serialize retorna uma string pronta para ser enviada
+            var valores = $('#enviar_mensagem').serializeArray();
+
+            var erros = [];
+
+            valores.forEach(campo => {
+                if(campo.value == "") {
+                    erros.push(`O campo ${campo.name} é obrigatório`)
+                }
+            })
+
+            if(erros.length){
+              return alert('Todos os campos são obrigatórios.')
+            }
+
+            
+
+            //colocamos no console para vermos
+            console.log(valores);   
+        });
+
     </script>
 </body>
 
