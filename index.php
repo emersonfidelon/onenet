@@ -41,7 +41,7 @@
                             <a class="nav-link" href="#contact-footer">Contato</a>
                         </li>
                         <li class="nav-item mx-2">
-                        <a href="http://177.73.44.246:8079/central_assinante_web/login" target="_blank" 
+                        <a href="https://central.onenet.net.br/central_assinante_web/login" target="_blank" 
                                             class="btn btn-gradient-orange w-100">Área do Cliente</a>
                         </li>
                     </ul>
@@ -81,7 +81,7 @@
                                                 Emita seu boleto aqui
                                             </small>
                                         </p>
-                                        <a href="http://177.73.44.246:8079/central_assinante_web/login" target="_blank" 
+                                        <a href="https://central.onenet.net.br/central_assinante_web/login" target="_blank" 
                                             class="btn btn-gradient-orange w-100">Entrar</a>
                                     </div>
                                 </div>
@@ -110,7 +110,7 @@
                                                 Emita seu boleto aqui
                                             </small>
                                         </p>
-                                        <a href="http://177.73.44.246:8079/central_assinante_web/login" target="_blank" 
+                                        <a href="https://central.onenet.net.br/central_assinante_web/login" target="_blank" 
                                             class="btn btn-gradient-orange w-100">Entrar</a>
                                     </div>
                                 </div>
@@ -139,7 +139,7 @@
                                                 Emita seu boleto aqui
                                             </small>
                                         </p>
-                                        <a href="http://177.73.44.246:8079/central_assinante_web/login" target="_blank" 
+                                        <a href="https://central.onenet.net.br/central_assinante_web/login" target="_blank" 
                                             class="btn btn-gradient-orange w-100">Entrar</a>
                                     </div>
                                 </div>
@@ -344,7 +344,7 @@
                             <a class="nav-link text-white" href="#section-plans">Planos</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link text-white" href="http://177.73.44.246:8079/central_assinante_web/login" target="_blank">Área do cliente</a>
+                            <a class="nav-link text-white" href="https://central.onenet.net.br/central_assinante_web/login" target="_blank">Área do cliente</a>
                         </li>
                     </ul>
                 </div>
